@@ -1,0 +1,282 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Display name shown in the server browser",
+        "Keywords": "server,name",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "Deceive Inc. Server"
+    },
+    {
+        "DisplayName": "Game Mode",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "game,mode",
+        "FieldName": "GameMode",
+        "InputType": "enum",
+        "Required": true,
+        "Order": 11,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "Solo",
+        "EnumValues": {
+            "Trio": "Trio",
+            "Duo": "Duo",
+            "Solo": "Solo"
+        }
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Maximum number of agents in a match (real players + fill bots). Capped by the game mode: Solo=8, Duo=10, Trio=12. Anything higher is clamped on startup and logged",
+        "Keywords": "max,players",
+        "FieldName": "MaxPlayers",
+        "InputType": "number",
+        "MinValue": 1,
+        "MaxValue": 12,
+        "Required": true,
+        "Order": 13,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "8"
+    },
+    {
+        "DisplayName": "Server Region",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Server region identifier, used for filtering in the server browser.",
+        "Keywords": "server,region",
+        "FieldName": "ServerRegion",
+        "InputType": "enum",
+        "Order": 13,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "",
+        "EnumValues": {
+            "": "Auto-detect",
+            "us-east": "US East",
+            "us-west": "US West",
+            "us-central": "US Central",
+            "eu": "Europe",
+            "oce": "Oceania",
+            "br": "Brazil",
+            "asia": "Asia",
+            "me": "Middle East"
+        }
+    },
+    {
+        "DisplayName": "Password",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Server password. Leave empty for no password",
+        "Keywords": "password",
+        "FieldName": "Password",
+        "InputType": "Password",
+        "Order": 15,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": ""
+    },
+    {
+        "DisplayName": "Hard Sell",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "hardsell",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "Hardsell",
+        "EnumValues": {
+            "False": "",
+            "True": "Hardsell"
+        }
+    },
+    {
+        "DisplayName": "Silver Reef",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "silverreef",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 20,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "Silverreef",
+        "EnumValues": {
+            "False": "",
+            "True": "Silverreef"
+        }
+    },
+    {
+        "DisplayName": "Diamond Spire",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "diamondspire",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 30,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "Diamondspire",
+        "EnumValues": {
+            "False": "",
+            "True": "Diamondspire"
+        }
+    },
+    {
+        "DisplayName": "Fragrant Shore",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "fragrant,shore",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 40,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "FragrantShore",
+        "EnumValues": {
+            "False": "",
+            "True": "FragrantShore"
+        }
+    },
+    {
+        "DisplayName": "Sound Eclipse",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "sound,eclipse",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 50,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "SoundEclipse",
+        "EnumValues": {
+            "False": "",
+            "True": "SoundEclipse"
+        }
+    },
+    {
+        "DisplayName": "Hard Sell - Day",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "hardsell,-,day",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 60,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "Hardsell_Day",
+        "EnumValues": {
+            "False": "",
+            "True": "Hardsell_Day"
+        }
+    },
+    {
+        "DisplayName": "Fragrant Shore - Night",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "fragrant,shore,-,night",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 70,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "FragrantShore_Night",
+        "EnumValues": {
+            "False": "",
+            "True": "FragrantShore_Night"
+        }
+    },
+    {
+        "DisplayName": "Crossplay",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "crossplay",
+        "FieldName": "bCrossplay",
+        "InputType": "checkbox",
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Fill with bots",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "fill,with,bots",
+        "FieldName": "bFillWithBots",
+        "InputType": "checkbox",
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Sandbox Mode",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "If true, players on this server can use any agent / loadout iteam regardless of their account-level unlock progression.",
+        "Keywords": "sandbox,mode",
+        "FieldName": "bSandboxMode",
+        "InputType": "checkbox",
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Bot Difficulty",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "bot,difficulty",
+        "FieldName": "BotsDifficulty",
+        "InputType": "enum",
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "Normal",
+        "EnumValues": {
+            "Easy": "Easy",
+            "Normal": "Normal",
+            "Difficult": "Difficult"
+        }
+    },
+    {
+        "DisplayName": "Randomize Map Order",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "If false, map rotaion is round-robin.",
+        "Keywords": "randomize,map,order",
+        "FieldName": "bRandomizeMap",
+        "InputType": "checkbox",
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "true",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
+        "DisplayName": "Bots Amount",
+        "Category": "Deceive Inc.:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Fixed bot count for the match. 0 fills every empty slot up to MaxPlayers when \"Fill With Bots\" is true. Clamped to \"Max Players\" on startup",
+        "Keywords": "bots,amount",
+        "FieldName": "BotsAmount",
+        "InputType": "number",
+        "MinValue": 0,
+        "MaxValue": 12,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "0",
+        "Placeholder": "0"
+    }
+]
