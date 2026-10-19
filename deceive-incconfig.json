@@ -124,6 +124,117 @@
         }
     },
     {
+        "DisplayName": "Hard Sell",
+        "Category": "Deceive Inc:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "hardsell",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "Hardsell",
+        "EnumValues": {
+            "False": "",
+            "True": "Hardsell"
+        }
+    },
+    {
+        "DisplayName": "Silver Reef",
+        "Category": "Deceive Inc:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "silverreef",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 20,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "Silverreef",
+        "EnumValues": {
+            "False": "",
+            "True": "Silverreef"
+        }
+    },
+    {
+        "DisplayName": "Diamond Spire",
+        "Category": "Deceive Inc:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "diamondspire",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 30,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "Diamondspire",
+        "EnumValues": {
+            "False": "",
+            "True": "Diamondspire"
+        }
+    },
+    {
+        "DisplayName": "Fragrant Shore",
+        "Category": "Deceive Inc:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "fragrant,shore",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 40,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "FragrantShore",
+        "EnumValues": {
+            "False": "",
+            "True": "FragrantShore"
+        }
+    },
+    {
+        "DisplayName": "Sound Eclipse",
+        "Category": "Deceive Inc:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "sound,eclipse",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 50,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "SoundEclipse",
+        "EnumValues": {
+            "False": "",
+            "True": "SoundEclipse"
+        }
+    },
+    {
+        "DisplayName": "Hard Sell - Day",
+        "Category": "Deceive Inc:stadia_controller",
+        "Subcategory": "Maps:dns:1",
+        "Description": "",
+        "Keywords": "hardsell,-,day",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 60,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "Hardsell_Day",
+        "EnumValues": {
+            "False": "",
+            "True": "Hardsell_Day"
+        }
+    },
+    {
+        "DisplayName": "Fragrant Shore - Night",
+        "Category": "Deceive Inc:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "fragrant,shore,-,night",
+        "FieldName": "+MapRotation",
+        "InputType": "checkbox",
+        "Order": 70,
+        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "DefaultValue": "FragrantShore_Night",
+        "EnumValues": {
+            "False": "",
+            "True": "FragrantShore_Night"
+        }
+    },
+    {
         "DisplayName": "Bot Difficulty",
         "Category": "Deceive Inc:stadia_controller",
         "Subcategory": "Server:dns:1",
