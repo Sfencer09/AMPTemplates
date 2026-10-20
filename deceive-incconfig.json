@@ -7,7 +7,7 @@
         "Keywords": "server,name",
         "FieldName": "ServerName",
         "InputType": "text",
-        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "ParamFieldName": "//Script//DeceiveInc.TripwireServerSettings",
         "DefaultValue": "Deceive Inc. Server"
     },
     {
@@ -20,7 +20,7 @@
         "InputType": "enum",
         "Required": true,
         "Order": 11,
-        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "ParamFieldName": "//Script//DeceiveInc.TripwireServerSettings",
         "DefaultValue": "Solo",
         "EnumValues": {
             "Trio": "Trio",
@@ -40,7 +40,7 @@
         "MaxValue": 12,
         "Required": true,
         "Order": 13,
-        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "ParamFieldName": "//Script//DeceiveInc.TripwireServerSettings",
         "DefaultValue": "8"
     },
     {
@@ -52,7 +52,7 @@
         "FieldName": "ServerRegion",
         "InputType": "enum",
         "Order": 13,
-        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "ParamFieldName": "//Script//DeceiveInc.TripwireServerSettings",
         "DefaultValue": "",
         "EnumValues": {
             "": "Auto-detect",
@@ -75,7 +75,7 @@
         "FieldName": "Password",
         "InputType": "Password",
         "Order": 15,
-        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "ParamFieldName": "//Script//DeceiveInc.TripwireServerSettings",
         "DefaultValue": ""
     },
     {
@@ -86,7 +86,7 @@
         "Keywords": "crossplay",
         "FieldName": "bCrossplay",
         "InputType": "checkbox",
-        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "ParamFieldName": "//Script//DeceiveInc.TripwireServerSettings",
         "DefaultValue": "true",
         "EnumValues": {
             "False": "false",
@@ -101,7 +101,7 @@
         "Keywords": "fill,with,bots",
         "FieldName": "bFillWithBots",
         "InputType": "checkbox",
-        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "ParamFieldName": "//Script//DeceiveInc.TripwireServerSettings",
         "DefaultValue": "false",
         "EnumValues": {
             "False": "false",
@@ -116,7 +116,7 @@
         "Keywords": "sandbox,mode",
         "FieldName": "bSandboxMode",
         "InputType": "checkbox",
-        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "ParamFieldName": "//Script//DeceiveInc.TripwireServerSettings",
         "DefaultValue": "true",
         "EnumValues": {
             "False": "false",
@@ -131,7 +131,7 @@
         "Keywords": "bot,difficulty",
         "FieldName": "BotsDifficulty",
         "InputType": "enum",
-        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "ParamFieldName": "//Script//DeceiveInc.TripwireServerSettings",
         "DefaultValue": "Normal",
         "EnumValues": {
             "Easy": "Easy",
@@ -147,7 +147,7 @@
         "Keywords": "randomize,map,order",
         "FieldName": "bRandomizeMap",
         "InputType": "checkbox",
-        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "ParamFieldName": "//Script//DeceiveInc.TripwireServerSettings",
         "DefaultValue": "true",
         "EnumValues": {
             "False": "false",
@@ -164,7 +164,7 @@
         "InputType": "number",
         "MinValue": 0,
         "MaxValue": 12,
-        "ParamFieldName": "/Script/DeceiveInc.TripwireServerSettings",
+        "ParamFieldName": "//Script//DeceiveInc.TripwireServerSettings",
         "DefaultValue": "0",
         "Placeholder": "0"
     }
