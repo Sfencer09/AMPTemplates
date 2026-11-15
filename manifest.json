@@ -1,9 +1,11 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
-	"authors": ["CubeCoders Limited", "AMP Community"],
-	"origin": "https://github.com/CubeCoders/AMPTemplates.git",
-	"url": "https://github.com/CubeCoders/AMPTemplates",
-	"imagefile": "",
-	"prefix": "",
+    "id": "3f68a0e5-f145-47c0-bbfc-022600dda650",
+    "authors": [
+        "SFencer09 - Made with AMP Config Generator"
+    ],
+    "origin": "https://github.com/SFencer09/AMPTemplates.git",
+    "url": "https://github.com/SFencer09/AMPTemplates",
+    "imagefile": "",
+    "prefix": "SFencer09",
 	"repotype": "AppTemplates"
 }

@@ -1,0 +1,10 @@
+[
+    {
+        "UpdateStageName": "SteamCMD",
+        "UpdateStageDescription": "Downloading server files",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "5007710",
+        "UpdateSourceArgs": "820520"
+    }
+]
