@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Server Name",
-        "Category": "Deceive Inc.:stadia_controller",
+        "Category": "Deceive Inc:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Display name shown in the server browser",
         "Keywords": "server,name",
@@ -14,7 +14,7 @@
     },
     {
         "DisplayName": "Game Mode",
-        "Category": "Deceive Inc.:stadia_controller",
+        "Category": "Deceive Inc:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "",
         "Keywords": "game,mode",
@@ -33,7 +33,7 @@
     },
     {
         "DisplayName": "Max Players",
-        "Category": "Deceive Inc.:stadia_controller",
+        "Category": "Deceive Inc:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Maximum number of agents in a match (real players + fill bots). Capped by the game mode: Solo=8, Duo=10, Trio=12. Anything higher is clamped on startup and logged",
         "Keywords": "max,players",
@@ -49,7 +49,7 @@
     },
     {
         "DisplayName": "Server Region",
-        "Category": "Deceive Inc.:stadia_controller",
+        "Category": "Deceive Inc:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Server region identifier, used for filtering in the server browser.",
         "Keywords": "server,region",
@@ -74,7 +74,7 @@
     },
     {
         "DisplayName": "Password",
-        "Category": "Deceive Inc.:stadia_controller",
+        "Category": "Deceive Inc:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Server password. Leave empty for no password. Written to log files on startup, add directly to TripwireServer.ini if logs are shared",
         "Keywords": "password",
@@ -88,7 +88,7 @@
     },
     {
         "DisplayName": "Crossplay",
-        "Category": "Deceive Inc.:stadia_controller",
+        "Category": "Deceive Inc:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Enable/disable cross-play between platforms",
         "Keywords": "crossplay",
