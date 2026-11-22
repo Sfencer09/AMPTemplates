@@ -101,5 +101,16 @@
             "False": "false",
             "True": "true"
         }
+    },
+    {
+        "DisplayName": "Maps and other settings",
+        "Category": "Deceive Inc:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "The remainder of the settings, like maps and bot counts, can only be changed by editing the DeceiveInc/TripwireServer.ini file",
+        "Keywords": "maps,bots,upnp,AutoShutdownEmptyMinutes,MinimumDeployedPlayersToStart,sandbox,tournament,fill,difficulty,randomize,heat",
+        "FieldName": "maps",
+        "InputType": "hidden",
+        "ParamFieldName": "maps",
+        "EnumValues": {}
     }
 ]
