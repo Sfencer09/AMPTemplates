@@ -104,8 +104,8 @@ Console.FilterMatchRegex=
 Console.FilterMatchReplacement=
 Console.ThrowawayMessageRegex=
 Console.AppReadyRegex=^.*Match\s+State\s+Changed\s+from\s+EnteringMap\s+to\s+WaitingToStart$
-Console.UserJoinRegex=
-Console.UserLeaveRegex=
+Console.UserJoinRegex=^.*LogNet:\s+AddClientConnection:\s+Added\s+client\s+connection:\s+\[UNetConnection\]\s+RemoteAddr:\s+(?<endpoint>.+),\s+Name:\s+(?<sessionid>.+),\s+Driver:\s+GameNetDriver.*$
+Console.UserLeaveRegex=^.*LogNet:\s+UChannel::Close:\s+Sending\s+CloseBunch\.\s+ChIndex\s+==\s+.*\.\s+Name:\s+\[UChannel\]\s+ChIndex:\s+.*,\s+Closing:\s+.*\s+\[UNetConnection\]\s+RemoteAddr:\s+(?<endpoint>.+),\s+Name:\s+(?<sessionid>.+),\s+Driver:\s+GameNetDriver.*$
 Console.UserChatRegex=
 Console.UpdateAvailableRegex=
 Console.PreConnectRegex=

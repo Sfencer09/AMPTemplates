@@ -94,7 +94,6 @@
         "Keywords": "crossplay",
         "FieldName": "Crossplay",
         "InputType": "checkbox",
-        "Required": false,
         "ParamFieldName": "Crossplay",
         "IncludeInCommandLine": true,
         "DefaultValue": "false",
